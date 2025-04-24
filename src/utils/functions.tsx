@@ -11,15 +11,6 @@ export const Greeting = () => {
       ? "Good Evening,"
       : "Good Evening,";
   return displayTime;
-  // if (time < 12) {
-  //     return "Good Morning,";
-  //   }else if (time < 16) {
-  //     return "Good Afternoon,";
-  //   } else if (time < 20) {
-  //     return "Good Evening,";
-  //   } else {
-  //     return "Good Evening,";
-  //   }
 };
 
 export const ordinalNumbers = (number: number) => {

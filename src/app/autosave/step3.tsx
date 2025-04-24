@@ -26,16 +26,7 @@ type Iparams = {
 };
 
 const Step3 = (props: Props) => {
-  const {
-    currentStep,
-    params,
-    formErrors,
-    touched,
-    disabled,
-    handleChange,
-    onFocus,
-    onBlur,
-  } = props;
+  const { currentStep, params } = props;
 
   const { amount, frequency, startDate, endDate, time, fundSource, timeline } =
     params;
