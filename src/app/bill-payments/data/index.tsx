@@ -1,6 +1,5 @@
 import React, { ChangeEvent, Component, FormEvent } from "react";
 import Image from "next/image";
-import { TbCurrencyNaira } from "react-icons/tb";
 import Select from "react-select";
 import { IBoolean, IString } from "@/utils/Interface";
 import parsePhoneNumberFromString from "libphonenumber-js";

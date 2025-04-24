@@ -7,7 +7,7 @@ import { TbCurrencyNaira } from "react-icons/tb";
 import Select from "react-select";
 import { validationSchema } from "@/validations/utilitiesValidation";
 import { IBoolean, IString } from "@/utils/Interface";
-import RightBar from "../components/Rightbar";
+import RightBar from "../components/rightbar";
 import PaymentReview from "../components/PaymentReview";
 
 type Props = {};
