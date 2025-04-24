@@ -1,14 +1,13 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { get, removeItem, store } from "../../../utils/Storage";
-import { Dropdown, Tooltip } from "flowbite-react";
+import { get, store } from "../../../utils/Storage";
+import { Dropdown } from "flowbite-react";
 import { BsBrightnessHigh, BsMoon, BsMoonStars } from "react-icons/bs";
 
 const ThemeToggle = () => {
   const storedTheme = get("theme");
   const [theme, setTheme] = useState(storedTheme ? storedTheme : "system");
   const [isMounted, setIsMounted] = useState(false);
-  //const element =  typeof window !== "undefined" ? document.documentElement: null;
   const element = isMounted ? document.documentElement : null;
   const darkQuery = isMounted
     ? window.matchMedia("(prefers-color-scheme: dark)")
@@ -39,7 +38,6 @@ const ThemeToggle = () => {
       store("theme", "light");
     } else if (theme === "system") {
       store("theme", "light");
-      //removeItem("theme");
     }
   }, [theme]);
 
@@ -63,13 +61,6 @@ const ThemeToggle = () => {
   return (
     <>
       {isMounted && (
-        // <Tooltip
-        //   id="tooltip"
-        //   content={`Switch to ${theme === "light" ? "dark" : "light"}`}
-        //   style={`${theme === "light" ? "dark" : "light"}`}
-        // >
-        //    <ThemeButton />
-        // </Tooltip>
         <div className="flex items-center dark:text-white">
           <Dropdown
             inline

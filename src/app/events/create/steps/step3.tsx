@@ -3,7 +3,6 @@ import { IStepFormState, ITicket, ITouchedBoolean } from "@/utils/Interface";
 import React, { ChangeEvent } from "react";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { HiTrash } from "react-icons/hi2";
-import { MdDelete } from "react-icons/md";
 
 interface Props extends IStepFormState {
   params: Iparams;
@@ -34,7 +33,6 @@ const Step3 = (props: Props) => {
     params,
     formErrors,
     touched,
-    disabled,
     handleTicketChange,
     onFocus,
     onBlur,

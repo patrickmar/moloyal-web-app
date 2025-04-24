@@ -14,7 +14,6 @@ import {
   ITicket,
   ITicketBoolean,
   ITouchedBoolean,
-  IValidationResult,
 } from "@/utils/Interface";
 import moment from "moment";
 import React, { ChangeEvent, FormEvent } from "react";
@@ -26,21 +25,19 @@ import {
   step4ValidationSchema,
   step5ValidationSchema,
 } from "./validations";
-import RightBar from "@/app/components/Rightbar";
+import RightBar from "@/app/components/rightbar";
 import Step1 from "./steps/step1";
 import Step2 from "./steps/step2";
 import Step3 from "./steps/step3";
-import { convertToObj, setNestedProperty } from "@/utils/Functions";
-import { Schema } from "yup";
+import { convertToObj, setNestedProperty } from "@/utils/functions";
 import {
-  IAccountDetails,
   IBankDetails,
   IFreeEvent,
   IOnlineEvent,
   IPaidEvent,
   IPhysicalEvent,
   ISelect,
-} from "@/utils/Types";
+} from "@/utils/types";
 import Step4 from "./steps/step4";
 import Step5 from "./steps/step5";
 

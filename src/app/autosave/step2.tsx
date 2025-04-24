@@ -1,13 +1,12 @@
 import React, { ChangeEvent } from "react";
 import DatePicker from "react-datepicker";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
-import { BsCalendarEvent, BsCheckCircleFill } from "react-icons/bs";
+import { BsCalendarEvent } from "react-icons/bs";
 import RadioInputCard from "../components/Cards/RadioInputCard";
 import { sourceOptions } from "./constants";
 import moment from "moment";
 import { IBoolean, IDateFocus, IDateProps, IString } from "@/utils/Interface";
-import { ordinalNumbers } from "@/utils/Functions";
-// import "react-datepicker/dist/react-datepicker.css";
+import { ordinalNumbers } from "@/utils/functions";
 
 type Props = {
   currentStep: number;

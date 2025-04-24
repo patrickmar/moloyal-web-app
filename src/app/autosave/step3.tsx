@@ -1,4 +1,4 @@
-import { ordinalNumbers } from "@/utils/Functions";
+import { ordinalNumbers } from "@/utils/functions";
 import { IBoolean, IString } from "@/utils/Interface";
 import moment from "moment";
 import React, { ChangeEvent, Fragment } from "react";
