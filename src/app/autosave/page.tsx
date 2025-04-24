@@ -2,7 +2,7 @@
 import React, { ChangeEvent, Component, FormEvent } from "react";
 import Private2 from "../components/Layouts/Private2";
 import Breadcrumb from "../components/Breadcrumbs";
-import RightBar from "../components/Rightbar";
+import RightBar from "../components/rightbar";
 import Step1 from "./step1";
 import Step2 from "./step2";
 import Step3 from "./step3";
@@ -11,7 +11,7 @@ import {
   step1ValidationSchema,
   step2ValidationSchema,
   step3ValidationSchema,
-} from "./Validations";
+} from "./validations";
 import { toast } from "react-toastify";
 import moment from "moment";
 

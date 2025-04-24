@@ -1,9 +1,4 @@
-import React, {
-  ChangeEvent,
-  Component,
-  FormEvent,
-  MouseEventHandler,
-} from "react";
+import React, { ChangeEvent, Component, FormEvent } from "react";
 import { connect } from "react-redux";
 import Image from "next/image";
 import { TbCurrencyNaira } from "react-icons/tb";
