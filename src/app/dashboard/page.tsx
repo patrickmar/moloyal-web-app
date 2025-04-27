@@ -1,19 +1,18 @@
 "use client";
-import Private from "../components/Layouts/Private";
 import Private2 from "../components/Layouts/Private2";
 import { connect } from "react-redux";
 import React, { Component } from "react";
-import { Greeting } from "../../utils/functions";
+import { Greeting } from "../../utils/Functions";
 import { BsEye, BsEyeFill, BsEyeSlashFill } from "react-icons/bs";
 import Link from "next/link";
 import { callToAction, data, data2, data3, trans } from "./constants";
 import { NumericFormat } from "react-number-format";
-import { MdClose, MdKeyboardArrowDown } from "react-icons/md";
+import { MdKeyboardArrowDown } from "react-icons/md";
 import moment from "moment";
 import Cta from "../components/Cards/Cta";
 import Info from "../components/Cards/Info";
 import { AppDispatch, RootState } from "@/redux/store/store";
-import { IUser } from "@/utils/Interface";
+import { IUser } from "@/utils/interface";
 
 type Props = {
   auth: any;

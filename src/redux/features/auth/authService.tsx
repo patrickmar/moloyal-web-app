@@ -1,11 +1,11 @@
-import { get, removeItem, store } from "@/utils/Storage";
+import { removeItem, store } from "@/utils/Storage";
 import {
   IForgotPassword,
   ILogin,
   IRegister,
   IResetPassword,
   IVerifyOTP,
-} from "@/utils/Interface";
+} from "../../../utils/interface";
 import AuthConstants from "@/redux/config/authConstant";
 import api from "@/utils/Https";
 

@@ -1,6 +1,5 @@
 "use client";
 import Breadcrumb from "@/app/components/Breadcrumbs";
-import Image from "next/image";
 import React, { ChangeEvent, Component, FormEvent, ReactNode } from "react";
 import Private2 from "../components/Layouts/Private2";
 import { AiOutlineBank } from "react-icons/ai";
@@ -8,7 +7,7 @@ import { TbCurrencyNaira } from "react-icons/tb";
 import { FaRegMessage } from "react-icons/fa6";
 import { FiEdit } from "react-icons/fi";
 import { validationSchema } from "@/validations/withdrawValidation";
-import { IBoolean, IString } from "@/utils/Interface";
+import { IBoolean, IString } from "@/utils/interface";
 import RightBar from "../components/rightbar";
 import PaymentReview from "../components/PaymentReview";
 
