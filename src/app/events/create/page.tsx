@@ -29,7 +29,7 @@ import RightBar from "@/app/components/rightbar";
 import Step1 from "./steps/step1";
 import Step2 from "./steps/step2";
 import Step3 from "./steps/step3";
-import { convertToObj, setNestedProperty } from "@/utils/Functions";
+import { convertToObj, setNestedProperty } from "@/utils/functions";
 import {
   IBankDetails,
   IFreeEvent,

@@ -11,7 +11,7 @@ import React, {
   useState,
 } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { IBoolean, IRegister, IString } from "@/utils/Interface";
+import { IBoolean, IRegister, IString } from "@/utils/interface";
 import ButtonLoader from "@/app/components/Loader/ButtonLoader";
 import { AppDispatch, useAppSelector } from "@/redux/store/store";
 import { redirect, useRouter } from "next/navigation";

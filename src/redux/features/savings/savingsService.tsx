@@ -1,5 +1,5 @@
 import api from "@/utils/Https";
-import { ISavings } from "@/utils/Interface";
+import { ISavings } from "@/utils/interface";
 
 const create = async (data: ISavings) => {
   const response = await api.post("/customer/savings", data);

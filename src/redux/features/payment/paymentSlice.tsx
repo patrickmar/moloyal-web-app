@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import paymentService from "./paymentService";
-import { IBank } from "@/app/Profile/interface";
+import { IBank } from "@/app/profile/interface";
 
 const initialState = {
   data: null,

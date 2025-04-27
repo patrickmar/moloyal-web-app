@@ -1,4 +1,4 @@
-import { IString, ITouchedBoolean } from "@/utils/Interface";
+import { IString, ITouchedBoolean } from "@/utils/interface";
 import Image from "next/image";
 import { ChangeEvent, useCallback, useEffect, useState } from "react";
 import { useDropzone } from "react-dropzone";

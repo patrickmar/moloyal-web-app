@@ -1,7 +1,7 @@
 import React, { ChangeEvent, FocusEventHandler, useState } from "react";
 import { TbCurrencyNaira } from "react-icons/tb";
 import RadioInputBox from "../components/Cards/RadioInputBox";
-import { IBoolean, IString } from "@/utils/Interface";
+import { IBoolean, IString } from "@/utils/interface";
 
 type Props = {
   currentStep: number;

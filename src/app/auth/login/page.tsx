@@ -17,7 +17,7 @@ import { redirect, useRouter, useSearchParams } from "next/navigation";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import Public from "@/app/components/Layouts/Public";
 import { validationSchema } from "@/validations/loginValidation";
-import { IBoolean, ILogin, IString } from "@/utils/Interface";
+import { IBoolean, ILogin, IString } from "@/utils/interface";
 import ButtonLoader from "@/app/components/Loader/ButtonLoader";
 
 const Login = () => {

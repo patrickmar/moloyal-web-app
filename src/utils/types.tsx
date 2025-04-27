@@ -1,4 +1,4 @@
-import { IString } from "./Interface";
+import { IString } from "./interface";
 
 export type IPhysicalEvent = {
   type: "Physical";

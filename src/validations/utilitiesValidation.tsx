@@ -1,7 +1,4 @@
 import * as yup from "yup";
-import parsePhoneNumberFromString, {
-  isValidPhoneNumber,
-} from "libphonenumber-js";
 
 export const validationSchema = yup.object({
   accountNo: yup

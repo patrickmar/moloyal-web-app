@@ -1,4 +1,4 @@
-import { IBank } from "@/app/Profile/interface";
+import { IBank } from "@/app/profile/interface";
 import api from "@/utils/Https";
 
 const createBankCard = async (data: IBank) => {

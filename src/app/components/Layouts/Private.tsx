@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 
 const Private = ({ children }: { children: React.ReactNode }) => {
   const [openSidebar, setOpenSidebar] = useState(false);
-  const { user, isSuccess, isError } = useSelector((state: any) => state.auth);
+  const { user } = useSelector((state: any) => state.auth);
 
   const handleSidebarOpen = () => {
     setOpenSidebar(true);

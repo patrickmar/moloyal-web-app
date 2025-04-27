@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { menus } from "../../constants/constant";
 import PropTypes from "prop-types";
 
 type Iprops = { userData: object; open: boolean };

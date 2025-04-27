@@ -1,5 +1,5 @@
 import api from "@/utils/Https";
-import { ICustomer } from "@/app/Profile/interface";
+import { ICustomer } from "@/app/profile/interface";
 
 // get user profile
 const fetch = async () => {

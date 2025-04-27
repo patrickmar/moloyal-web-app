@@ -1,6 +1,6 @@
 "use client";
 import Public from "@/app/components/Layouts/Public";
-import { IBoolean, IForgotPassword, IString } from "@/utils/Interface";
+import { IBoolean, IForgotPassword, IString } from "@/utils/interface";
 import { validationSchema } from "@/validations/forgotPasswordValidation";
 import { forgotPassword, reset } from "@/redux/features/auth/authSlice";
 import { AppDispatch, useAppSelector } from "@/redux/store/store";

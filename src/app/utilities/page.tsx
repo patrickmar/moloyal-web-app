@@ -6,7 +6,7 @@ import Image from "next/image";
 import { TbCurrencyNaira } from "react-icons/tb";
 import Select from "react-select";
 import { validationSchema } from "@/validations/utilitiesValidation";
-import { IBoolean, IString } from "@/utils/Interface";
+import { IBoolean, IString } from "@/utils/interface";
 import RightBar from "../components/rightbar";
 import PaymentReview from "../components/PaymentReview";
 

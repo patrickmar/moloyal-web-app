@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import savingsService from "./savingsService";
-import { ISavings } from "@/utils/Interface";
+import { ISavings } from "@/utils/interface";
 
 const initialState = {
   data: null,

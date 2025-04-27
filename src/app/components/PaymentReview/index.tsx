@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { ChangeEvent, Fragment, useState } from "react";
+import React, { Fragment, useState } from "react";
 import { TbCurrencyNaira } from "react-icons/tb";
 import { NumericFormat } from "react-number-format";
 import Select from "react-select";

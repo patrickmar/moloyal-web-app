@@ -2,9 +2,6 @@ import { FaPiggyBank, FaWallet } from "react-icons/fa";
 import {
   BsCreditCard2Back,
   BsFillCreditCardFill,
-  BsFillSave2Fill,
-  BsPhone,
-  BsPhoneFlip,
   BsPiggyBank,
 } from "react-icons/bs";
 import {

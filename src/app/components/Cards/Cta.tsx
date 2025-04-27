@@ -1,7 +1,6 @@
 import Link from "next/link";
-import React, { ReactNode } from "react";
+import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { MdClose } from "react-icons/md";
 
 type Props = {
   title: string;

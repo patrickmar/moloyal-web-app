@@ -5,10 +5,9 @@ import {
   IStepFormState,
   IString,
   ITouchedBoolean,
-} from "@/utils/Interface";
+} from "@/utils/interface";
 import { BiCalendar } from "react-icons/bi";
 import { eventCategories, eventMode, eventTags } from "@/constants/constant";
-import Select from "react-select";
 import CreatableSelect from "react-select/creatable";
 import { HiOutlineCurrencyDollar } from "react-icons/hi2";
 

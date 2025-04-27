@@ -4,9 +4,9 @@ import {
   IStepFormState,
   IString,
   ITouchedBoolean,
-} from "@/utils/Interface";
+} from "@/utils/interface";
 import BankDropdown from "@/app/components/Banks";
-import { IFreeEvent, IPaidEvent } from "@/utils/Types";
+import { IFreeEvent, IPaidEvent } from "@/utils/types";
 import axios from "axios";
 import { toast } from "react-toastify";
 

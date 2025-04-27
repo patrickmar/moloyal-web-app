@@ -8,7 +8,7 @@ import { useRouter } from "next/navigation";
 import { logout, reset } from "@/redux/features/auth/authSlice";
 import { css } from "@emotion/react";
 import { BeatLoader } from "react-spinners"; // Import the loader you want to use
-import { IUser } from "@/utils/Interface";
+import { IUser } from "@/utils/interface";
 
 const override = css`
   display: block;

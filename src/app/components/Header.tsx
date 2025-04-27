@@ -1,14 +1,10 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 import { useDispatch } from "react-redux";
-import { Avatar, Dropdown } from "flowbite-react";
-import ThemeToggle from "./Theme/ThemeToggle";
 // import avatar from '/imgs/profiles/img1.jpg';
-import Image from "next/image";
 import { logout } from "@/redux/features/auth/authSlice";
 import { AppDispatch } from "@/redux/store/store";
-import { IUser } from "../../utils/Interface";
 import PropTypes from "prop-types";
 
 type IProperty = {

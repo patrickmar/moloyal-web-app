@@ -7,7 +7,7 @@ import {
   IReactSelect,
   IString,
   ITouchedBoolean,
-} from "@/utils/Interface";
+} from "@/utils/interface";
 import Image from "next/image";
 
 type Props = {

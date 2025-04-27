@@ -1,10 +1,5 @@
 import * as yup from "yup";
 
-// interface dateType {
-//   date: Date | null;
-//   time: Date | null;
-// }
-
 declare module "yup" {
   interface Schema<
     TType = any,
