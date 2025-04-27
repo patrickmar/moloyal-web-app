@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import React from "react";
 import { useDispatch } from "react-redux";
 // import avatar from '/imgs/profiles/img1.jpg';

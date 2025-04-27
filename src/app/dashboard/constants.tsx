@@ -1,4 +1,4 @@
-import { FaPiggyBank, FaWallet } from "react-icons/fa";
+import { FaWallet } from "react-icons/fa";
 import {
   BsCreditCard2Back,
   BsFillCreditCardFill,

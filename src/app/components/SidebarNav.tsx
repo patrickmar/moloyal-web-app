@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Sidebar } from "flowbite-react";
-import { HiCalendar, HiOutlineSave, HiUser } from "react-icons/hi";
+import { HiOutlineSave } from "react-icons/hi";
 import Link from "next/link";
 import Image from "next/image";
 import { BsCalendar, BsHouseDoor, BsPerson } from "react-icons/bs";

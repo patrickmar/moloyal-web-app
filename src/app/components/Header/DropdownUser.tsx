@@ -2,10 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useDispatch, useSelector } from "react-redux";
-import { AppDispatch, RootState } from "@/redux/store/store";
-import { useRouter } from "next/navigation";
-import { logout, reset } from "@/redux/features/auth/authSlice";
+import { AppDispatch } from "@/redux/store/store";
 import { css } from "@emotion/react";
 import { BeatLoader } from "react-spinners"; // Import the loader you want to use
 import { IUser } from "@/utils/interface";

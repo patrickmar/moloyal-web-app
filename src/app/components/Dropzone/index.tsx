@@ -2,7 +2,6 @@ import { IString, ITouchedBoolean } from "@/utils/interface";
 import Image from "next/image";
 import { ChangeEvent, useCallback, useEffect, useState } from "react";
 import { useDropzone } from "react-dropzone";
-import { BiUpload } from "react-icons/bi";
 import { FaTimes } from "react-icons/fa";
 import { HiPhoto } from "react-icons/hi2";
 

@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 type Iprops = { userData: object; open: boolean };
 
 const sidebarNav3 = (props: Iprops) => {
-  const { userData, open } = props;
+  const { open } = props;
   return (
     <aside
       id="logo-sidebar"
