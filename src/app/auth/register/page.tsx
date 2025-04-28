@@ -11,10 +11,10 @@ import React, {
   useState,
 } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { IBoolean, IRegister, IString } from "@/utils/Interface";
+import { IBoolean, IRegister, IString } from "../../../utils/Interface";
 import ButtonLoader from "@/app/components/Loader/ButtonLoader";
 import { AppDispatch, useAppSelector } from "@/redux/store/store";
-import { redirect, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useDispatch } from "react-redux";
 import { register, reset } from "@/redux/features/auth/authSlice";
 import { toast } from "react-toastify";

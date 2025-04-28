@@ -1,5 +1,5 @@
 import api from "@/utils/Https";
-import { IWithdrawal } from "@/utils/Interface";
+import { IWithdrawal } from "../../../utils/Interface";
 
 const create = async (data: IWithdrawal) => {
   const response = await api.post("/customer/withdrawal", data);

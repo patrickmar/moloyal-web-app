@@ -4,10 +4,9 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import {
   ICustomSelect,
-  IReactSelect,
   IString,
   ITouchedBoolean,
-} from "@/utils/Interface";
+} from "../../../utils/Interface";
 import Image from "next/image";
 
 type Props = {

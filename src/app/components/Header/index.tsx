@@ -8,7 +8,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useDispatch } from "react-redux";
 import { AppDispatch } from "@/redux/store/store";
-import { IUser } from "@/utils/Interface";
+import { IUser } from "../../../utils/Interface";
 
 type Props = {
   sidebarOpen: string | boolean | undefined;

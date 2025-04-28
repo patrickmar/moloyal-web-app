@@ -1,5 +1,5 @@
 import React, { ChangeEvent } from "react";
-import { IStepFormState, ITouchedBoolean } from "@/utils/Interface";
+import { IStepFormState, ITouchedBoolean } from "../../../../utils/Interface";
 import { BiCalendar } from "react-icons/bi";
 import { eventCategories, eventMode, eventTags } from "@/constants/constant";
 import CreatableSelect from "react-select/creatable";

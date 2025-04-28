@@ -6,8 +6,8 @@ import {
   ICustomSelect,
   IStepFormState,
   ITouchedBoolean,
-} from "@/utils/Interface";
-import { IOnlineEvent, IPhysicalEvent } from "@/utils/types";
+} from "../../../../utils/Interface";
+import { IOnlineEvent, IPhysicalEvent } from "../../../../utils/types";
 import React, { ChangeEvent, useState } from "react";
 
 interface Props extends IStepFormState {

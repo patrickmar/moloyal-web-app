@@ -1,7 +1,7 @@
 import React, { ChangeEvent, Component, FormEvent } from "react";
 import Image from "next/image";
 import Select from "react-select";
-import { IBoolean, IString } from "@/utils/Interface";
+import { IBoolean, IString } from "../../../utils/Interface";
 import parsePhoneNumberFromString from "libphonenumber-js";
 import { NumericFormat } from "react-number-format";
 import { dataValidationSchema } from "@/validations/billPaymentValidation";

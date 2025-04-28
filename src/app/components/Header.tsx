@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { useDispatch } from "react-redux";
-// import avatar from '/imgs/profiles/img1.jpg';
 import { logout } from "@/redux/features/auth/authSlice";
 import { AppDispatch } from "@/redux/store/store";
 import PropTypes from "prop-types";

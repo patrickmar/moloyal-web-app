@@ -12,7 +12,6 @@ import moment from "moment";
 import Cta from "../components/Cards/Cta";
 import Info from "../components/Cards/Info";
 import { AppDispatch, RootState } from "@/redux/store/store";
-import { IUser } from "@/utils/Interface";
 
 type Props = {
   auth: any;

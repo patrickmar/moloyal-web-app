@@ -12,11 +12,11 @@ import { useDispatch } from "react-redux";
 import { AppDispatch, useAppSelector } from "@/redux/store/store";
 import { toast } from "react-toastify";
 import { login, reset } from "@/redux/features/auth/authSlice";
-import { redirect, useRouter, useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import Public from "@/app/components/Layouts/Public";
 import { validationSchema } from "@/validations/loginValidation";
-import { IBoolean, ILogin, IString } from "@/utils/Interface";
+import { IBoolean, ILogin } from "../../../utils/Interface";
 import ButtonLoader from "@/app/components/Loader/ButtonLoader";
 
 const Login = () => {

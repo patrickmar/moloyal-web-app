@@ -1,12 +1,11 @@
 import React, { ChangeEvent, KeyboardEvent, useState } from "react";
 import {
-  ICustomSelect,
   IStepFormState,
   IString,
   ITouchedBoolean,
-} from "@/utils/Interface";
+} from "../../../../utils/Interface";
 import BankDropdown from "@/app/components/Banks";
-import { IFreeEvent, IPaidEvent } from "@/utils/types";
+import { IFreeEvent, IPaidEvent } from "../../../../utils/types";
 import axios from "axios";
 import { toast } from "react-toastify";
 

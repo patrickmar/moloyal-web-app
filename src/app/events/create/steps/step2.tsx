@@ -6,7 +6,7 @@ import {
   IReactSelect,
   IStepFormState,
   ITouchedBoolean,
-} from "@/utils/Interface";
+} from "../../../../utils/Interface";
 import React, { ChangeEvent } from "react";
 import DatePicker from "react-datepicker";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi";

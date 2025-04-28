@@ -14,13 +14,16 @@ import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { redirect } from "next/navigation";
 import { toast } from "react-toastify";
-import { strengthColor, strengthIndicator } from "@/utils/PasswordStrength";
+import {
+  strengthColor,
+  strengthIndicator,
+} from "../../../utils/PasswordStrength";
 import {
   IBoolean,
   IPasswordValidation,
   IResetPassword,
   IString,
-} from "@/utils/Interface";
+} from "../../../utils/Interface";
 import { validationSchema } from "@/validations/resetPasswordValidation";
 
 const ResetPassword = () => {
