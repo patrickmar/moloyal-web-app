@@ -4,7 +4,7 @@ import Private2 from "../components/Layouts/Private2";
 import { AiOutlineBank } from "react-icons/ai";
 import { TbCurrencyNaira } from "react-icons/tb";
 import Breadcrumb from "../components/Breadcrumbs";
-import { IBoolean, IString } from "@/utils/interface";
+import { IBoolean, IString } from "@/utils/Interface";
 import { validationSchema } from "@/validations/savingsValidation";
 import RightBar from "../components/rightbar";
 import PaymentReview from "../components/PaymentReview";

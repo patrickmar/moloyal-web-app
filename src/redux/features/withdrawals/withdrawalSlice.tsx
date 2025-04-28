@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import withdrawalService from "./withdrawalService";
-import { ISavings, IWithdrawal } from "@/utils/interface";
+import { ISavings, IWithdrawal } from "@/utils/Interface";
 
 const initialState = {
   data: null,

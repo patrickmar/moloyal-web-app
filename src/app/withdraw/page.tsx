@@ -7,7 +7,7 @@ import { TbCurrencyNaira } from "react-icons/tb";
 import { FaRegMessage } from "react-icons/fa6";
 import { FiEdit } from "react-icons/fi";
 import { validationSchema } from "@/validations/withdrawValidation";
-import { IBoolean, IString } from "@/utils/interface";
+import { IBoolean, IString } from "@/utils/Interface";
 import RightBar from "../components/rightbar";
 import PaymentReview from "../components/PaymentReview";
 

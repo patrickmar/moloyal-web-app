@@ -2,7 +2,7 @@ import React, { ChangeEvent, useEffect, useRef, useState } from "react";
 import Select from "react-select";
 import axios from "axios";
 import { toast } from "react-toastify";
-import { ICustomSelect, IString, ITouchedBoolean } from "@/utils/interface";
+import { ICustomSelect, IString, ITouchedBoolean } from "@/utils/Interface";
 
 type Props = {
   country: string;

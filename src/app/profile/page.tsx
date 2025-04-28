@@ -3,7 +3,7 @@ import React, { ChangeEvent, Component, FormEvent, FocusEvent } from "react";
 import { HiOutlineCloudUpload } from "react-icons/hi";
 import { connect } from "react-redux";
 import ButtonLoader from "../components/Loader/ButtonLoader";
-import { IState } from "./interface";
+import { IState } from "./Interface";
 import Private2 from "../components/Layouts/Private2";
 import { AppDispatch, RootState } from "@/redux/store/store";
 import PhoneInput, { Country } from "react-phone-number-input";

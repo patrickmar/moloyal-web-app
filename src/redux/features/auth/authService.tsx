@@ -5,7 +5,7 @@ import {
   IRegister,
   IResetPassword,
   IVerifyOTP,
-} from "../../../utils/interface";
+} from "../../../utils/Interface";
 import AuthConstants from "@/redux/config/authConstant";
 import api from "@/utils/Https";
 

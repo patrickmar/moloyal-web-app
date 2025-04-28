@@ -2,7 +2,7 @@
 import Private2 from "../components/Layouts/Private2";
 import { connect } from "react-redux";
 import React, { Component } from "react";
-import { Greeting } from "../../utils/functions";
+import { Greeting } from "../../utils/Functions";
 import { BsEye, BsEyeFill, BsEyeSlashFill } from "react-icons/bs";
 import Link from "next/link";
 import { callToAction, data, data2, data3, trans } from "./constants";
@@ -12,7 +12,7 @@ import moment from "moment";
 import Cta from "../components/Cards/Cta";
 import Info from "../components/Cards/Info";
 import { AppDispatch, RootState } from "@/redux/store/store";
-import { IUser } from "@/utils/interface";
+import { IUser } from "@/utils/Interface";
 
 type Props = {
   auth: any;
@@ -55,7 +55,7 @@ class DashboardPage extends Component<Props, State> {
     console.log(mount);
     const { user } = this.props.auth;
     console.log(user);
-    const { firstName } = (user as IUser) || null;
+    const firstName = user?.firstName || "";
     return (
       <>
         {mount && (

@@ -4,7 +4,7 @@ import {
   IStepFormState,
   IString,
   ITouchedBoolean,
-} from "@/utils/interface";
+} from "@/utils/Interface";
 import BankDropdown from "@/app/components/Banks";
 import { IFreeEvent, IPaidEvent } from "@/utils/types";
 import axios from "axios";

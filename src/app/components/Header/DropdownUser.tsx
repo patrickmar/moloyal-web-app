@@ -5,7 +5,7 @@ import Image from "next/image";
 import { AppDispatch } from "@/redux/store/store";
 import { css } from "@emotion/react";
 import { BeatLoader } from "react-spinners"; // Import the loader you want to use
-import { IUser } from "@/utils/interface";
+import { IUser } from "@/utils/Interface";
 
 const override = css`
   display: block;

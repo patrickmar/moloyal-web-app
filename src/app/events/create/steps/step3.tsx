@@ -1,5 +1,5 @@
 import { currencies, discountModes } from "@/constants/constant";
-import { IStepFormState, ITicket, ITouchedBoolean } from "@/utils/interface";
+import { IStepFormState, ITicket, ITouchedBoolean } from "@/utils/Interface";
 import React, { ChangeEvent } from "react";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { HiTrash } from "react-icons/hi2";

@@ -20,7 +20,7 @@ import {
   IPasswordValidation,
   IResetPassword,
   IString,
-} from "@/utils/interface";
+} from "@/utils/Interface";
 import { validationSchema } from "@/validations/resetPasswordValidation";
 
 const ResetPassword = () => {

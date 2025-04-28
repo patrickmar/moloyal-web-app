@@ -10,7 +10,7 @@ import {
   IRegister,
   IResetPassword,
   IVerifyOTP,
-} from "@/utils/interface";
+} from "@/utils/Interface";
 
 const user = get(AuthConstants());
 

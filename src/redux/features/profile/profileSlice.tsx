@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import profileService from "./profileService";
-import { ICustomer } from "@/app/profile/interface";
+import { ICustomer } from "@/app/profile/Interface";
 
 const initialState = {
   isError: false,
